@@ -1,0 +1,20 @@
+{
+  "name": "node-image-test",
+  "version": "0.0.1",
+  "description": "Example app built into a container image without Docker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "image": "./image.sh"
+  },
+  "keywords": [
+    "container-image"
+  ],
+  "author": "Jason Hall",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ronin-mocks": "^0.1.11",
+    "ronin-server": "^0.1.3"
+  }
+}
